@@ -1,0 +1,33 @@
+{
+	"name": "chemybal",
+	"version": "1.0.0",
+	"description": "Simple Chemical Equation Balancer",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EEHoveckis/chemybal.git"
+	},
+	"keywords": [
+		"chemistry",
+		"chemicals",
+		"balance",
+		"balancer",
+		"chem",
+		"equilibrium",
+		"elements",
+		"chemical balance",
+		"reaction",
+		"matrix",
+		"chemical reaction",
+		"chemical change"
+	],
+	"author": "EEHoveckis",
+	"license": "CC-BY-4.0",
+	"bugs": {
+		"url": "https://github.com/EEHoveckis/chemybal/issues"
+	},
+	"homepage": "https://github.com/EEHoveckis/chemybal#readme"
+}
