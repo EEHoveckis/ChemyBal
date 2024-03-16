@@ -29,7 +29,8 @@ Mg + 2 HCl = MgCl2 + H2
 
 
 ## 📰 Notes
-* **(1.0.0 - 1.0.1)** Equations involving oxidation numbers and electrons return incorrect incorrect result. Will be fixed in **(1.0.2)**
+* **(1.0.0 - 1.0.1)** Equations involving oxidation numbers and electrons result an incorrect result. Fixed in **(^1.0.2)**
+* **(^1.0.2)** This module understands both normal numbers and subscripts. You don't have to specifically convert them.
 
 ## 👨‍⚖️ License
 [chemybal](https://github.com/EEHoveckis/chemybal) by [EEHoveckis](https://github.com/EEHoveckis) is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).\
