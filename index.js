@@ -9,3 +9,11 @@ module.exports = function(equation) {
 	if (typeof coefs != "object") return;
 	else return finishEquation(equation, coefs);
 };
+
+module.exports.coefsOnly = function(equation) {
+	equation = readyEquation(equation);
+
+	const coefs = calculate(equation);
+	if (typeof coefs != "object") return;
+	else return coefs;
+};

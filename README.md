@@ -19,18 +19,29 @@ const chemybal = require("chemybal");
 Ways to call chemybal from your program:
 
 ```js
-const equation = "Mg + HCl = MgCl2 + H2";
+// Standard mode
+const equation = "Mg + HCl → MgCl₂ + H₂";
 console.log(chemybal(equation));
 
 /* Output:
-Mg + 2 HCl = MgCl2 + H2
+Mg + 2HCl → MgCl₂ + H₂
+*/
+```
+```js
+// Coefficients Only - ^1.0.3
+const equation = "H₂SO₄ + Cu → CuSO₄ + H₂O + SO₂"
+console.log(chemybal.coefsOnly(equation));
+
+/*
+Output:
+[ 2, 1, 1, 2, 1 ]
 */
 ```
 
-
 ## 📰 Notes
-* **(1.0.0 - 1.0.1)** Equations involving oxidation numbers and electrons result an incorrect result. Fixed in **(^1.0.2)**
-* **(^1.0.2)** This module understands both normal numbers and subscripts. You don't have to specifically convert them.
+* **(1.0.0 - 1.0.1)** Equations with oxidation numbers result an incorrect result. Fixed in **(^1.0.2)**
+* **(^1.0.2)** This module understands super/subscript numbers. No need to convert to normal numbers.
+* **(^1.0.2)** In equations you can use both `"="` and `"→"`. Module understands both.
 
 ## 👨‍⚖️ License
 [chemybal](https://github.com/EEHoveckis/chemybal) by [EEHoveckis](https://github.com/EEHoveckis) is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).\
