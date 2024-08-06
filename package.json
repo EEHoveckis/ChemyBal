@@ -1,6 +1,6 @@
 {
 	"name": "chemybal",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Simple Chemical Equation Balancer",
 	"main": "index.js",
 	"scripts": {
@@ -24,7 +24,7 @@
 		"chemical reaction",
 		"chemical change"
 	],
-	"author": "EEHoveckis",
+	"author": "EEHoveckis (Edgars Eduards Hoveckis)",
 	"license": "CC-BY-4.0",
 	"bugs": {
 		"url": "https://github.com/EEHoveckis/chemybal/issues"
